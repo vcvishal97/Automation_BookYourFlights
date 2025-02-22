@@ -19,7 +19,5 @@ public class FlightsConfirmationPage extends AbstractPage {
 	
 	@FindBy(xpath = "//div[@class='card-body']//div[contains(normalize-space(),'Total Price ')]/div[2]/p")
 	private WebElement totalPrice;
-	
-	
 
 }
